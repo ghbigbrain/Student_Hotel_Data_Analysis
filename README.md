@@ -1,12 +1,11 @@
 # Nhom20 — Bài thực hành dữ liệu đặt phòng khách sạn
 
 ## 1. Thành viên và phân công
-
-| Họ tên | MSSV | Phụ trách chính | Có thể giải thích thêm |
-|---|---|---|---|
-| [Họ và tên Thành viên 1] | [MSSV 1] | Giai đoạn A (Khảo sát dữ liệu), Làm sạch B1 – B5, Phần 2 báo cáo | Quy trình gộp `booking_id` (B8), các kết quả phân tích & biểu đồ (Câu 2 – 5) |
-| [Họ và tên Thành viên 2] | [MSSV 2] | Làm sạch B6 – B8, Giai đoạn C (`clean_df`, `monthly_summary`, nhật ký, truy vết, kiểm tra), Câu 1, README | Quy tắc chuẩn hóa nhãn & ngày tháng (B1 – B5), phân tích giá phòng & lưu trú (Câu 6 – 10) |
-| [Họ và tên Thành viên 3] | [MSSV 3] | Giai đoạn D (Câu 2 – 10, 8 biểu đồ), tổng hợp 6 Insight có bằng chứng, Phần 3 & 4 báo cáo | Khảo sát chất lượng dữ liệu ban đầu (Giai đoạn A), quy tắc làm sạch chính (B1 – B8) |
+| Họ tên | MSSV | Phụ trách chính |
+|---|---|---|
+| Nguyễn Gia Hưng | 11253367 | Khảo sát dữ liệu (A1–A6); Làm sạch dữ liệu từ B1 đến B5 (`booking_id`, sửa lệch cột trạng thái/ngày, chuẩn hóa giá trị thiếu, nhãn phân loại, kiểu ngày tháng); Kiểm tra tự động toàn bộ notebook. |
+| Dương Minh Nguyên | 11256308 | Làm sạch dữ liệu từ B6 đến B8 (ép kiểu số & `adr`, chuẩn hóa `country`, hợp nhất 10.000 `booking_id` và xuất `row_lineage`); Giai đoạn C (C1–C3); Phân tích & vẽ biểu đồ Câu 1 đến Câu 5. |
+| Lê Hải Yến | 11259127 | Phân tích & vẽ biểu đồ Câu 6 đến Câu 10 (phân khúc, đặt cọc, giá phòng `adr`, thời gian lưu trú, đổi phòng); Viết 6 Insight có bằng chứng, phần giới hạn & hướng bổ sung dữ liệu; Hoàn thiện báo cáo và `README.md`. |
 
 ## 2. Cách chạy lại
 
