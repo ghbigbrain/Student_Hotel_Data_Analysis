@@ -9,7 +9,7 @@
 
 ## 2. Cách chạy lại
 
-1. Giải nén `NhomXX_KhachSan.zip`, giữ nguyên cấu trúc thư mục.
+1. Giải nén `Student_Hotel_Data_Analysis-main.zip`, giữ nguyên cấu trúc thư mục.
 2. Mở `hotel_analysis.ipynb` tại thư mục gốc; chọn **Restart & Run all**.
 3. Kết quả được ghi vào `outputs/` (5 tệp dữ liệu, `tables/`, `figures/`).
 4. (Tùy chọn) Chạy công cụ tự kiểm tra tại thư mục gốc:
