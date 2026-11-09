@@ -1,0 +1,10 @@
+﻿deposit_type,customer_type,n_bookings,n_canceled,cancel_rate_pct
+No Deposit,Contract,310,66,21.29
+No Deposit,Group,45,3,6.67
+No Deposit,Transient,6363,1981,31.13
+No Deposit,Transient-Party,2010,439,21.84
+Non Refund,Contract,54,54,100.0
+Non Refund,Transient,1088,1088,100.0
+Non Refund,Transient-Party,117,105,89.74
+Refundable,Transient,2,2,100.0
+Refundable,Transient-Party,11,3,27.27

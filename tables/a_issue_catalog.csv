@@ -1,0 +1,12 @@
+﻿issue_id,field,issue,detection_rule,affected_rows,example_row_ids
+ISSUE_01,booking_id,Chứa khoảng trắng thừa hoặc viết chữ thường,booking_id != booking_id.str.strip().str.upper(),215,R00096; R00110; R00236; R00329; R00406
+ISSUE_02,reservation_status,Chứa giá trị ngày (YYYY-MM-DD) thay vì nhãn trạng thái,reservation_status.str.match(r'^\d{4}-\d{2}-\d{2}$'),26,R00141; R00331; R00390; R00499; R00822
+ISSUE_03,arrival_date,"Sai định dạng chuẩn ISO (có dạng /, tên tháng hoặc chuỗi rác)",Không khớp ^\d{4}-\d{2}-\d{2}$ và không rỗng,1970,R00005; R00011; R00014; R00015; R00019
+ISSUE_04,lead_time,Thời gian đặt trước mang giá trị âm,to_numeric(lead_time) < 0,15,R00529; R01000; R01431; R01771; R02519
+ISSUE_05,stays_in_weekend_nights,Dính chữ đơn vị 'nights',stays_in_weekend_nights.str.contains('nights'),15,R00068; R00645; R01950; R02219; R02565
+ISSUE_06,stays_in_week_nights,Số đêm trong tuần mang giá trị âm,to_numeric(stays_in_week_nights) < 0,8,R01006; R01216; R04248; R04314; R04824
+ISSUE_07,adr,"Giá phòng dính ký hiệu tiền tệ (€, EUR) hoặc dùng dấu phẩy thập phân","adr.str.contains(r'€|EUR|,')",121,R00081; R00432; R00549; R00601; R00663
+ISSUE_08,adr,Giá phòng bình quân mang giá trị âm,to_numeric(adr_da_bo_ky_tu) < 0,8,R00080; R00277; R00754; R01758; R01916
+ISSUE_09,hotel,"Tên khách sạn sai chính tả, viết thường, hoặc chỉ ghi City / Resort","~hotel.isin(['City Hotel', 'Resort Hotel'])",221,R00010; R00054; R00055; R00063; R00074
+ISSUE_10,is_canceled,"Trạng thái hủy lưu dưới dạng yes/no, True/False hoặc số thực 1.0/0.0","~is_canceled.isin(['0', '1'])",205,R00037; R00059; R00125; R00130; R00138
+ISSUE_11,country,"Chứa ký hiệu giá trị thiếu (NULL, N/A, ?...)",country.str.lower().isin(MISSING_TOKENS),90,R00065; R00435; R00457; R00605; R00724

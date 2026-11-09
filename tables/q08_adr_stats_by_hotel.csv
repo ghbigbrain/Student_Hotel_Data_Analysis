@@ -1,0 +1,3 @@
+﻿hotel,n_bookings,mean_adr,median_adr,q25_adr,q75_adr,total_revenue_est
+City Hotel,6681,105.97,100.0,79.2,126.0,1205973.75
+Resort Hotel,3283,95.61,77.78,50.52,126.0,959992.04

@@ -1,0 +1,3 @@
+﻿is_canceled,n_bookings,mean_lead_time,median_lead_time,q25_lead_time,q75_lead_time,iqr_lead_time
+0,6239,80.67,48.0,10.0,125.0,115.0
+1,3730,145.46,113.0,48.0,215.0,167.0

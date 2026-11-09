@@ -1,0 +1,5 @@
+﻿hotel,is_canceled,n_bookings,mean_total_nights,median_total_nights,mean_weekend_nights,mean_week_nights,pct_with_kids
+City Hotel,0,3884,2.92,3.0,0.79,2.13,7.31
+City Hotel,1,2792,3.06,3.0,0.81,2.25,6.34
+Resort Hotel,0,2350,4.22,3.0,1.14,3.08,8.77
+Resort Hotel,1,938,4.49,4.0,1.23,3.26,13.01
