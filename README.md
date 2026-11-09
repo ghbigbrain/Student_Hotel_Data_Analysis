@@ -1,4 +1,4 @@
-# NhomXX — Bài thực hành dữ liệu đặt phòng khách sạn
+# Nhom20 — Bài thực hành dữ liệu đặt phòng khách sạn
 
 ## 1. Thành viên và phân công
 
